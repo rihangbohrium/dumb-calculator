@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %} dumb-calculator {% endblock %}
+{% block content %}
+  <h1>
+    <a href="https://github.com/rihangbohrium/dumb-calculator"><u>dumb-calculator: </u></a>
+  </h1>
+  <h1>
+    currently supports operations: +, -, * for integers in range [0, 999]
+  </h1>
+  <br>
+  <form method="POST">
+    <input name="expression">
+    <input type="submit">
+  </form>
+  <h1>
+    {{output}}
+  </h1>
+{% endblock %}

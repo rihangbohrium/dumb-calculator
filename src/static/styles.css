@@ -1,0 +1,29 @@
+@font-face {
+    font-family: monaco;
+    src: url('./static/monaco.ttf') format('ttf');
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fafbfc;
+    font-size: medium;
+  }
+  
+  div {
+    margin-top: 10px
+  }
+  
+  body {
+    margin:5%;
+  }
+  
+  * {
+    background-color: #181818; 
+    color: #ffffff;
+    font-weight: normal;
+    /*text-align: center;*/
+    font-family: monaco, Monaco;
+    font-size: medium;
+  }
+  
+  
